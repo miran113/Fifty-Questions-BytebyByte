@@ -20,7 +20,7 @@ A:
                     index2++;
                 }
             }
-
+            
             //console.log(array);
 
             if (array.length % 2 == 0) {
@@ -32,7 +32,6 @@ A:
                 var newMiddle = ((array.length - 1) / 2);
                 median = array[newMiddle];
             }
-
-
+            
             return median; 
         }
